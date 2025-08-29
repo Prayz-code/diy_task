@@ -22,7 +22,7 @@
         color: white;
         font-weight: bold;
         text-decoration: underline;
-        text-decoration-color: chartreuse;
+        text-decoration-color: #5CFF5C;
         position: absolute;
         top: 8px;
         right: 35px;
@@ -35,13 +35,13 @@
 
     .tailored{
         text-decoration: underline;
-        text-decoration-color: chartreuse;
+        text-decoration-color: #5CFF5C;
     }
 
     .learn{
         color: #0E0E55;
         font-weight: bold;
-        background-color: chartreuse;
+        background-color: #5CFF5C;
         padding-top: 15px;
         padding-bottom: 15px;
         padding-right: 30px;
@@ -75,6 +75,36 @@
 
     .headshot{
         border-radius: 70%;
-        width: 200px;
+        width: 200px;   
+    }
+
+    .action{
+        margin-bottom: 0px;
+    }
+
+    .louis{
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .cta{
+        color: white;
+        
+    }
+
+    .access{
+        color: #0E0E55;
+        font-weight: bold;
+        background-color: #5CFF5C;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .company{
+        background-color: #000035;
+        padding-left: 30px;
+        width: max-content;
         
     }

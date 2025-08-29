@@ -74,8 +74,8 @@
     }
 
     .headshot{
-        border-radius: 70%;
-        width: 200px;   
+        border-radius: 100%;
+        width: 300px;   
     }
 
     .action{
@@ -106,5 +106,12 @@
         background-color: #000035;
         padding-left: 30px;
         width: max-content;
+        padding-bottom: 0px;
         
+    }
+
+    .merge{
+        display: flex;
+        float: left;
+        margin-bottom: 40px;
     }

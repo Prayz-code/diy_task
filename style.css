@@ -1,6 +1,6 @@
 .color1{
         background-color: #000035;
-        padding-bottom: 300px;
+        padding-bottom: 400px;
         position: relative;
     }
     .workit{
@@ -20,7 +20,6 @@
 
     .apply{
         color: white;
-        font-weight: bold;
         text-decoration: underline;
         text-decoration-color: #5CFF5C;
         position: absolute;
@@ -46,7 +45,6 @@
         padding-bottom: 15px;
         padding-right: 30px;
         padding-left: 30px;
-
     }
 
     .info{
@@ -56,69 +54,8 @@
         margin-right: auto;     
     }
 
-    .satisfaction, .decisions, .affordable{
-        width: 210px;
-        font-size: 16px;
-    }
-
-    .column{
-        float: left;
-        width: 20%;
-        padding: 0px;
-    }
-
-    .color2{
-        background-color: hsl(330, 100%, 98%);
-        padding-bottom: 180px;
-        padding-top: 20px;
-    }
-
-    .headshot{
-        border-radius: 100%;
-        width: 300px;   
-    }
-
-    .action{
-        margin-bottom: 0px;
-    }
-
-    .louis{
-        width: 300px;
-        font-size: 12px;
-    }
-
-    .cta{
-        color: white;
-        
-    }
-
-    .access{
-        color: #0E0E55;
-        font-weight: bold;
-        background-color: #5CFF5C;
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-right: 30px;
-        padding-left: 30px;
-    }
-
-    .company{
-        background-color: #000035;
-        padding-left: 30px;
-        width: max-content;
-        padding-bottom: 0px;
-        
-    }
-
-    .merge{
-        display: flex;
-        float: left;
-        margin-bottom: 40px;
-    }
-
     .circle{
-        display: inline-block;
-        margin-left: 200px;
+        margin-left: 50px;
         text-align: center;
         border-radius: 50%;
         width: 34px;
@@ -128,5 +65,88 @@
         color: #800080;
         font-weight: bold;
         font-size: 18px;
+        margin-top: 10px; 
+    } 
+    
+    .heading{
+        color: #470047;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .longtalk{
+        color: #470047;
+        font-size: 18px;
+        width: 60%;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        padding-left: 30px;
+        background-color: hsl(330, 100%, 98%);
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 80px;
+    }
+
+    .headshot{
+        border-radius: 50%;
+    }
+
+    .action{
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .founder{
+        color: white;
+        font-size: 14px;
+        width: 450px;
+    }
+    
+    .access{
+        color: #0E0E55;
+        font-weight: bold;
+        background-color: #5CFF5C;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 30px;
+        padding-left: 30px;
+        border: none;
+    }
+
+    .button{
+        background-color: #000035;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 25px;
+        padding-left: 30px;
+        width: fit-content;
+    }
+
+    .shot{
+        display: flex;
+        justify-content: center;
         
+    }
+
+    .cta{
+       position: relative;
+       left: 750px;
+       bottom: 105px;
     }   
+
+    .work{
+        color: #470047;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+
+
+    
+
+    
